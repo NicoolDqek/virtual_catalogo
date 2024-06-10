@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import {
+  Route,
+  Routes,
+} from 'react-router-dom';
+
+import CartPage from '../src/pages/cartpage/CartPage.js';
+import AccountPage from './pages/accountpage/AccountPage.js';
+import ContactPage from './pages/contactpage/ContactPage.js';
+import HomePage from './pages/homepage/HomePage';
+import ProductsDetailsPage
+  from './pages/productsdetailspage/ProductsDetailsPage';
+import ProductsPage from './pages/productspage/ProductsPage';
+import RegisterPage from './pages/registerpage/RegisterPage';
+import SignUpPage from './pages/signuppage/SignUpPage';
+
+const App= ()=>{
+    return(
+        <div>
+            <Routes>
+            <Route path="/" element={<HomePage/>}/>
+            <Route path='/products' element={<ProductsPage/>}/>
+            <Route path='/products-details/:id' element={<ProductsDetailsPage/>}/>
+            <Route path='/signup' element={<SignUpPage/>}/>
+            <Route path='/cart' element={<CartPage/>}/>
+            <Route path='/register' element={<RegisterPage/>}/>
+            <Route path='/account' element={<AccountPage/>}/>
+            <Route path='/contact' element={<ContactPage/>}/>
+            </Routes>
+            
+            
+        </div>
+    )
 }
-
 export default App;
