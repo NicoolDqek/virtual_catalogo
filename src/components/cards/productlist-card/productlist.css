@@ -20,7 +20,9 @@ color: goldenrod;
     transition: 0.4s all;
     width: 100%;
 }
-
+.p-name,.p-price{
+ font-weight: 800;   
+}
 .product:hover img{
     opacity: 0.6;
 }

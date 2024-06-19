@@ -2,15 +2,13 @@ import './cartproduct.css';
 
 import React from 'react';
 
-import ear from '../../assets/imgs/earpods1.avif';
-
 const CartProduct = () => {
     return (
         
         <tr>
         <td>
             <div className="product-info">
-                <img src={ear} alt=""></img>
+                <img  alt=""></img>
                 <div>
                     <p>Nombre producto</p>
                     <small><span>$</span>150.000</small>

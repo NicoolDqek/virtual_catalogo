@@ -8,7 +8,7 @@ import Navbar from '../navbar/Navbar';
 
 const Showcase= ()=>{
     return(
-        
+      
         <section className='showcase-container'>
             <Navbar/>
             <section id="home">
