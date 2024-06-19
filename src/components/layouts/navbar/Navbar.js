@@ -33,10 +33,6 @@ const Navbar = () => {
               <Link className="nav-link" to="/account">Cuenta</Link>
             </li>
           </ul>
-          <form className="d-flex flex-grow-1 mx-2">
-            <input className="search-bar form-control me-2" type="search" placeholder="Search" aria-label="Search"  />
-            <button className="btn btn-outline-dark" type="submit">Search</button>
-          </form>
           <ul className="navbar-nav">
             <li className="nav-item">
               <Link className="nav-link" to="/cart">

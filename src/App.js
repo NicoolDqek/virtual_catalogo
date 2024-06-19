@@ -13,6 +13,7 @@ import ProductsDetailsPage
   from './pages/productsdetailspage/ProductsDetailsPage';
 import ProductsPage from './pages/productspage/ProductsPage';
 import RegisterPage from './pages/registerpage/RegisterPage';
+import SearchPage from './pages/searchPage/SearchPage.js';
 import SignUpPage from './pages/signuppage/SignUpPage';
 
 const App= ()=>{
@@ -27,6 +28,7 @@ const App= ()=>{
             <Route path='/register' element={<RegisterPage/>}/>
             <Route path='/account' element={<AccountPage/>}/>
             <Route path='/contact' element={<ContactPage/>}/>
+            <Route path='/search' element={<SearchPage/>}/>
             </Routes>
             
             
