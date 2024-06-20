@@ -29,6 +29,9 @@ const App= ()=>{
             <Route path='/account' element={<AccountPage/>}/>
             <Route path='/contact' element={<ContactPage/>}/>
             <Route path='/search' element={<SearchPage/>}/>
+            
+
+
             </Routes>
             
             

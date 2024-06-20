@@ -15,6 +15,7 @@ const ProductsPage= ()=>{
         <h2>Encuentra Tus Productos</h2>
         
         <Searchinput/>
+        
         </div>
         <ProductsListAll/>
       </section>

@@ -1,0 +1,14 @@
+.underline{
+    height: 3px;
+    width: 100px;
+    background-color: #f7941d;
+    
+}
+.color{
+color: black;
+font-weight: 500;
+}
+
+.filtros{
+    background-color: var(--color-primario);
+}
